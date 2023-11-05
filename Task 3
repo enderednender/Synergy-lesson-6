@@ -1,0 +1,10 @@
+def find_maximum(num1, num2, num3=None):
+    if num3 is not None:
+        return max(num1, num2, num3)
+    return max(num1, num2)
+
+result1 = find_maximum(5, 8)
+result2 = find_maximum(10, 3, 7)
+
+print("Максимум из 5 и 8:", result1)
+print("Максимум из 10, 3 и 7:", result2)
