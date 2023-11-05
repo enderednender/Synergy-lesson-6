@@ -1,0 +1,10 @@
+def generate_registration_message(first_name, last_name, patronymic, age):
+    registration_message = f"{last_name} {first_name} {patronymic} {age} г.р. зарегистрирован"
+    return registration_message
+first_name = "Иван"
+last_name = "Иванов"
+patronymic = "Иванович"
+age = 1973
+
+message = generate_registration_message(first_name, last_name, patronymic, age)
+print(message)
